@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minkowski Plot Simulation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="sketch.js"></script>
+</head>
+<body>
+  <h1>Minkowski Plot Simulation</h1>
+  <p>Adjust the velocity slider to see how the Minkowski diagram changes.</p>
+  <div id="slider-container">
+    <label for="velocity-slider">Velocity (v/c):</label>
+    <input type="range" id="velocity-slider" min="0" max="0.99" step="0.01" value="0">
+    <span id="velocity-value">0</span>
+  </div>
+  <div id="canvas-container"></div>
+</body>
+</html>
